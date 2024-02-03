@@ -1,0 +1,168 @@
+body {
+    background-color: rgba(18, 38, 32, 1);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVIGATION */
+nav {
+    position: sticky;
+    top: 0px;
+}
+.navbar {
+    background-color: rgba(214, 173, 96, 1);
+    line-height: 65px;
+    display: flex;
+    align-items: center;
+}
+.navbarcontent a{
+    text-decoration: none;
+    color: rgba(136, 74, 57, 1);
+    font-family: Prata;
+    font-size: 14px;
+    padding: 14px 16px;
+    text-align: center;
+}
+.navbarcontent {
+    margin-left: auto;
+}
+.navbarcontent a:hover {
+    padding-top: 25px;
+    padding-bottom: 23px;
+    background-color: rgba(182, 141, 64, 1);
+    transition: ease 0.2s;
+}
+.imgsize img{
+    max-width: 120px;
+    margin-left: 50px;
+}
+
+/* SP HEADER */
+.header {
+    background-image: url(../Asset/spheader.png);
+    height: 591px;
+}
+.header .desc p{
+    font-size: 46px;
+    font-family: Prata;
+    color: rgba(214, 173, 96, 1);
+    text-align: center;
+    padding-top: 240px;
+}
+.header .button {
+    margin-top: 100px;
+    margin-left: 580px;
+}
+.header .button span{
+    padding: 20px 15px;
+    background-color: rgba(182, 141, 64, 1);
+}
+.header .button span:hover {
+    background-color: rgba(214, 173, 96, 1);
+    transition: ease 0.2s;
+}
+.header .button span a {
+    text-decoration: none;
+    font-size: 17px;
+    color: rgba(18, 38, 32, 1);
+    margin-right: 5px;
+}
+
+/* FOOTER */
+footer {
+    padding: 100px 100px;
+    background-color: rgba(30, 30, 30, 1);
+    display: flex;
+    flex-direction: row;
+}
+footer .foot {
+    display: flex;
+    flex-direction: row;
+}
+footer .logo {
+    margin-top: 20px;
+}
+.connect span.connectwithus {
+    font-size: 22px;
+    font-family: Prata;
+    color: rgba(182, 141, 64, 1);
+    margin-left: 150px;
+}
+.connect .sosmed {
+    margin-left: 140px;
+    margin-top: 20px;
+}
+.connect .sosmed a{
+    padding: 0px 10px;
+}
+footer .info p{
+    font-size: 17px;
+    font-family: Prata;
+    color: rgba(244, 235, 208, 1);
+    margin-left: 180px;
+}
+
+@media (max-width: 768px) {
+    .navbarcontent {
+        margin: auto;
+    }
+    .imgsize img {
+        width: 100%;
+        height: auto;
+        margin-left: 50px;      
+    }
+    .header {
+        height: 450px;
+    }
+    .header .desc p{
+        font-size: 26px;
+        text-align: center;
+        padding-top: 180px;
+    }
+    .header .button {
+        margin-top: 100px;
+        margin-left: 320px;
+    }
+    .header .button span{
+        padding: 15px 10px;
+    }
+    .header .button span a {
+        font-size: 13px;
+        
+        margin-right: 5px;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 50px;
+    }
+    footer .logo {
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    footer .foot {
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+    .connect span.connectwithus {
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .connect .sosmed {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .connect .sosmed a{
+        padding: 0px 10px;
+    }
+    footer .info p{
+        margin-left: 170px;
+        font-size: 14px;
+    }
+}

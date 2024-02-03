@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="ContactUsStyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Prata">
+</head>
+<body>
+     <!-- NAVIGATION -->
+     <nav>
+        <div class="navbar">
+            <a href="../Home Page (HTML & CSS)/HomePage.html" class="imgsize">
+                <img src="../Asset/JCC Logo.png" alt="">
+            </a>
+            <div class="navbarcontent">
+                <a href="../Home Page (HTML & CSS)/HomePage.html">HOME</a>
+                <a href="../Events Page (HTML & CSS)/Events.html">EVENTS</a>
+                <a href="../Price List Page (HTML & CSS)/PriceList.html">PRICE LIST</a>
+                <a href="../About Us Page (HTML & CSS)/AboutUs.html">ABOUT US</a>
+                <a href="../Contact Us Page (HTML, JS, and, CSS)/ContactUs.html">CONTACT US</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HEADER -->
+    <div class="header">
+        <div class="title">
+            <p>CONTACT US</p>
+        </div>
+        <div class="desc">
+            <p>Want to tell us something? Simply fill in the data below and tell us what you want to say. We will get back to you soon.</p>
+        </div>
+    </div>
+
+    <!-- CUST DATA -->
+    <div class="data">
+        <p class="warn">*Must be filled</p>
+        <form method="post">
+            <div class="data1">
+                <label for="name">
+                    <p class="name">Name</p>
+                    <p class="must">*</p>
+                </label> <br>
+                <input type="text" name="name" id="name" placeholder="Must consist of at least 3 characters">
+            </div>
+            <div class="data2">
+                <label for="email">
+                    <p class="email">Email</p>
+                    <p class="must">*</p>
+                </label> <br>
+                <input type="text" name="email" id="email" placeholder="Must contain one '@' and '.' character">
+            </div>
+            <div class="data3">
+                <label for="phone">
+                    <p class="phone">Phone number</p>
+                    <p class="must">*</p>
+                </label> <br>
+                <input type="number" name="phone" id="phone" placeholder="Must consist of numbers and at least 7 characters">
+            </div>
+            <div class="data4">
+                <label for="preferred" class="title">
+                    <p class="preferred">Preferred contact method</p>
+                    <p class="must">*</p>
+                </label> <br>
+                <input type="checkbox" name="preferred" id="preferred1">
+                <label for="preferred" class="desc">Email</label> <br> <br>
+                <input type="checkbox" name="preferred" id="preferred2">
+                <label for="preferred" class="desc">Phone</label>
+            </div>
+            <div class="data5">
+                <label for="message">
+                    <p class="message">Message</p>
+                    <p class="note">(Minimum 10 characters and maximum 500 characters)</p>
+                    <p class="must">*</p>
+                </label> <br>
+                <textarea name="message" id="message"></textarea>
+            </div>
+            <button type="button" class="submit" onclick="validating()">SUBMIT</button>
+        </form>
+        <script src="ContactUsScript.js"></script>
+    </div>
+
+     <!-- FOOTER -->
+     <footer>
+        <div class="logo">
+            <img src="../Asset/footerlogo.png" alt="">
+        </div>
+        <div class="foot">
+            <div class="connect">
+                <span class="connectwithus">Connect with us</span>
+                <div class="sosmed">
+                    <a href="https://www.instagram.com/balaisidangjcc/">
+                        <img src="../Asset/instalogo.png" alt="">
+                    </a>
+                    <a href="https://twitter.com/balaisidangjcc">
+                        <img src="../Asset/twitterlogo.png" alt="">
+                    </a>
+                    <a href="https://www.facebook.com/balaisidangJCC">
+                        <img src="../Asset/fesbuklogo.png" alt="">
+                    </a>
+                    <a href="http://youtu.be/sBbdXPQRUak">
+                        <img src="../Asset/yutublogo.png" alt="">
+                    </a>
+                </div>
+            </div>
+        <div class="info">
+            <p>Jl. Jend. Gatot Subroto Jakarta 10270
+                <br>
+                Phone : +62 (21) 5726000
+                <br>
+                Fax : +62 (21) 5726523
+                <br>
+                contact@jcc.co.id</p>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>

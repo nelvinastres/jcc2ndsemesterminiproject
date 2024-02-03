@@ -1,0 +1,545 @@
+body {
+    background-color: rgba(18, 38, 32, 1);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVIGATION */
+nav {
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+.navbar {
+    background-color: rgba(214, 173, 96, 1);
+    line-height: 65px;
+    display: flex;
+    align-items: center;
+}
+.navbarcontent a{
+    text-decoration: none;
+    color: rgba(136, 74, 57, 1);
+    font-family: Prata;
+    font-size: 14px;
+    padding: 14px 16px;
+    text-align: center;
+}
+.navbarcontent {
+    margin-left: auto;
+}
+.navbarcontent a:hover {
+    padding-top: 25px;
+    padding-bottom: 23px;
+    background-color: rgba(182, 141, 64, 1);
+    transition: ease 0.2s;
+}
+.imgsize img{
+    max-width: 120px;
+    margin-left: 50px;
+}
+
+/* HEADER */
+.header {
+    background-image: url(../Asset/aboutusheader.png);
+    height: 591px;
+}
+.header .title p{
+    font-size: 44px;
+    font-family: Prata;
+    color: rgba(214, 173, 96, 1);
+    padding-left: 125px;
+    padding-top: 175px;
+}
+.header .desc p {
+    font-size: 20px;
+    font-family: Prata;
+    color: rgba(244, 235, 208, 1);
+    padding-left: 125px;
+    padding-right: 750px;
+    padding-top: 5px;
+    text-align: justify;
+}
+
+/* ABOUT US */
+.aboutus .history .title header {
+    font-size: 34px;
+    font-family: Prata;
+    color: rgba(182, 141, 64, 1);
+    margin-top: 70px;
+    position: relative;
+    text-align: center;
+}
+.aboutus .history .title header:before {
+    margin-left: 100px;
+    top: 50%;
+    left: 0;
+    content: " ";
+    height: 1px;
+    width: 10cm;
+    display: block;
+    background: rgba(182, 141, 64, 1);
+    position: absolute;
+}
+.aboutus .history .title header:after {
+    margin-right: 100px;
+    top: 50%;
+    right: 0;
+    content: " ";
+    height: 1px;
+    width: 10cm;
+    display: block;
+    background: rgba(182, 141, 64, 1);
+    position: absolute;
+}
+.aboutus .history .content {
+    background-color: rgba(182, 141, 64, 1);
+    display: flex;
+    margin-top: 50px;
+    height: 520px;
+}
+.aboutus .history .content .text p.up {
+    font-size: 18px;
+    font-family: Prata;
+    color: rgba(30, 30, 30, 1);
+    margin-right: 80px;
+    margin-left: 50px;
+    margin-top: 25px;
+    text-align: justify;
+}
+.aboutus .history .content .text p.down {
+    font-size: 18px;
+    font-family: Prata;
+    color: rgba(30, 30, 30, 1);
+    margin-right: 80px;
+    margin-left: 50px;
+    margin-top: 25px;
+    text-align: justify;
+}
+/*  */
+.partnercertif .title header {
+    font-size: 34px;
+    font-family: Prata;
+    color: rgba(182, 141, 64, 1);
+    margin-top: 90px;
+    position: relative;
+    text-align: center;
+}
+.partnercertif .title header:before {
+    margin-left: 100px;
+    top: 50%;
+    left: 0;
+    content: " ";
+    height: 1px;
+    width: 10cm;
+    display: block;
+    background: rgba(182, 141, 64, 1);
+    position: absolute;
+}
+.partnercertif .title header:after {
+    margin-right: 100px;
+    top: 50%;
+    right: 0;
+    content: " ";
+    height: 1px;
+    width: 10cm;
+    display: block;
+    background: rgba(182, 141, 64, 1);
+    position: absolute;
+}
+/*  */
+.partnercertif .content .content1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+}
+.partnercertif .content .content1 .text p.name1 {
+    font-size: 30px;
+    font-family: Prata;
+    color: rgba(244, 235, 208, 1);
+    margin-left: 100px;
+}
+.partnercertif .content .content1 .text p.desc1 {
+    font-size: 18px;
+    font-family: Prata;
+    color: rgba(244, 235, 208, 1);
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-right: 195px;
+    text-align: justify;
+}
+.partnercertif .content .content1 img {
+    margin-right: 160px;
+    height: 270px;
+}
+/*  */
+.partnercertif .content .content2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.partnercertif .content .content2 .text p.name2 {
+    font-size: 30px;
+    font-family: Prata;
+    color: rgba(244, 235, 208, 1);
+    margin-left: 100px;
+}
+.partnercertif .content .content2 .text p.desc2 {
+    font-size: 18px;
+    font-family: Prata;
+    color: rgba(244, 235, 208, 1);
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-right: 240px;
+    text-align: justify;
+}
+.partnercertif .content .content2 img {
+    margin-right: 160px;
+    width: 300px;
+    height: 300px;
+}
+/*  */
+.partnercertif .content .content3 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 55px;
+}
+.partnercertif .content .content3 .text p.name3 {
+    font-size: 30px;
+    font-family: Prata;
+    color: rgba(244, 235, 208, 1);
+    margin-left: 100px;
+}
+.partnercertif .content .content3 .text p.desc3 {
+    font-size: 18px;
+    font-family: Prata;
+    color: rgba(244, 235, 208, 1);
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-right: 205px;
+    text-align: justify;
+}
+.partnercertif .content .content3 img {
+    padding-top: 20px;
+    margin-right: 135px;
+    width: 370px;
+    height: 250px;
+}
+/*  */
+.partnercertif .content .content4 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 55px;
+}
+.partnercertif .content .content4 .text p.name4 {
+    font-size: 30px;
+    font-family: Prata;
+    color: rgba(244, 235, 208, 1);
+    margin-left: 100px;
+}
+.partnercertif .content .content4 .text p.desc4 {
+    font-size: 18px;
+    font-family: Prata;
+    color: rgba(244, 235, 208, 1);
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-right: 205px;
+    text-align: justify;
+}
+.partnercertif .content .content4 img {
+    padding-top: 20px;
+    margin-right: 135px;
+    width: 370px;
+    height: 250px;
+}
+/*  */
+.partnercertif .content .content5 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 55px;
+}
+.partnercertif .content .content5 .text p.name5 {
+    font-size: 30px;
+    font-family: Prata;
+    color: rgba(244, 235, 208, 1);
+    margin-left: 100px;
+}
+.partnercertif .content .content5 .text p.desc5 {
+    font-size: 18px;
+    font-family: Prata;
+    color: rgba(244, 235, 208, 1);
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-right: 205px;
+    text-align: justify;
+}
+.partnercertif .content .content5 img {
+    margin-right: 135px;
+    width: 360px;
+    height: 240px;
+}
+/*  */
+.partnercertif .content .content6 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 55px;
+}
+.partnercertif .content .content6 .text p.name6 {
+    font-size: 30px;
+    font-family: Prata;
+    color: rgba(244, 235, 208, 1);
+    margin-left: 100px;
+}
+.partnercertif .content .content6 .text p.desc6 {
+    font-size: 18px;
+    font-family: Prata;
+    color: rgba(244, 235, 208, 1);
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-right: 205px;
+    text-align: justify;
+}
+.partnercertif .content .content6 img {
+    margin-right: 135px;
+    width: 350px;
+    height: 230px;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 100px;
+    padding: 100px 100px;
+    background-color: rgba(30, 30, 30, 1);
+    display: flex;
+    flex-direction: row;
+}
+footer .foot {
+    display: flex;
+    flex-direction: row;
+}
+footer .logo {
+    margin-top: 20px;
+}
+.connect span.connectwithus {
+    font-size: 22px;
+    font-family: Prata;
+    color: rgba(182, 141, 64, 1);
+    margin-left: 150px;
+}
+.connect .sosmed {
+    margin-left: 140px;
+    margin-top: 20px;
+}
+.connect .sosmed a{
+    padding: 0px 10px;
+}
+footer .info p{
+    font-size: 17px;
+    font-family: Prata;
+    color: rgba(244, 235, 208, 1);
+    margin-left: 180px;
+}
+
+@media (max-width: 768px) {
+    .navbarcontent {
+        margin: auto;
+    }
+    .imgsize img {
+        width: 100%;
+        height: auto;
+        margin-left: 50px;      
+    }
+    .header {
+        height: 450px;
+    }
+    .header .title p {
+        font-size: 36px;
+        padding-left: 100px;
+        padding-top: 135px;
+    }
+    .header .desc p {
+        font-size: 16px;
+        padding-left: 100px;
+        padding-right: 275px;
+        padding-top: 5px;
+        text-align: justify;
+    }
+    .aboutus .history .title header {
+        font-size: 30px;
+    }
+    .aboutus .history .title header:before {
+        width: 5cm;
+    }
+    .aboutus .history .title header:after {
+        width: 5cm;
+    }
+    .aboutus .history .content {
+        display: flex;
+        flex-direction: column;
+        height: 625px;
+    }
+    .aboutus .history .content img {
+        width: 500px;
+        height: 300px;
+        margin-top: 15px;
+        margin-left: 50px;
+        margin-right: 25px;
+    }
+    .aboutus .history .content .text p.up{
+        font-size: 14px;
+        margin-right: 50px;
+    }
+    .aboutus .history .content .text p.down {
+        font-size: 14px;
+        margin-top: 15px;
+        margin-right: 50px;
+    }
+    .partnercertif .title header {
+        font-size: 30px;
+    }
+    .partnercertif .title header:before {
+        margin-left: 50px;
+        width: 5cm;
+    }
+    .partnercertif .title header:after {
+        margin-right: 50px;
+        width: 5cm;
+    }
+    .partnercertif .content .content1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .partnercertif .content .content1 .text p.name1 {
+        font-size: 24px;
+    }
+    .partnercertif .content .content1 .text p.desc1 {
+        font-size: 15px;
+        margin-right: 100px;
+    }
+    .partnercertif .content .content1 img {
+        margin-left: 255px;
+        width: 220px;
+    }
+    .partnercertif .content .content2 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+    .partnercertif .content .content2 .text p.name2 {
+        font-size: 24px;
+        margin-top: 35px;
+    }
+    .partnercertif .content .content2 .text p.desc2 {
+        font-size: 15px;
+        margin-right: 100px;
+    }
+    .partnercertif .content .content2 img {
+        margin-left: 275px;
+        width: 200px;
+    }
+    .partnercertif .content .content3 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 40px;
+    }
+    .partnercertif .content .content3 .text p.name3 {
+        font-size: 24px;
+        margin-top: 35px;
+    }
+    .partnercertif .content .content3 .text p.desc3 {
+        font-size: 15px;
+        margin-right: 100px;
+    }
+    .partnercertif .content .content3 img {
+        margin-left: 275px;
+        width: 200px;
+        height: 220px;
+    }
+    .partnercertif .content .content4 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 40px;
+    }
+    .partnercertif .content .content4 .text p.name4 {
+        font-size: 24px;
+        margin-top: 35px;
+    }
+    .partnercertif .content .content4 .text p.desc4 {
+        font-size: 15px;
+        margin-right: 100px;
+    }
+    .partnercertif .content .content4 img {
+        margin-left: 275px;
+        width: 200px;
+        height: 220px;
+    }
+    .partnercertif .content .content5 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+    .partnercertif .content .content5 .text p.name5 {
+        font-size: 24px;
+        margin-top: 35px;
+    }
+    .partnercertif .content .content5 .text p.desc5 {
+        font-size: 15px;
+        margin-right: 100px;
+    }
+    .partnercertif .content .content5 img {
+        margin-left: 275px;
+        width: 200px;
+        height: 220px;
+    }
+    .partnercertif .content .content6 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+    .partnercertif .content .content6 .text p.name6 {
+        font-size: 24px;
+        margin-top: 35px;
+    }
+    .partnercertif .content .content6 .text p.desc6 {
+        font-size: 15px;
+        margin-right: 100px;
+    }
+    .partnercertif .content .content6 img {
+        margin-left: 275px;
+        width: 200px;
+        height: 220px;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 50px;
+    }
+    footer .logo {
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    footer .foot {
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+    .connect span.connectwithus {
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .connect .sosmed {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .connect .sosmed a{
+        padding: 0px 10px;
+    }
+    footer .info p{
+        margin-left: 170px;
+        font-size: 14px;
+    }
+}
