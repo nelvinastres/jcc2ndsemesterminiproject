@@ -42,7 +42,7 @@ nav {
 
 /* HEADER */
 .header {
-    background-image: url(../Asset/homeheader.png);
+    background-image: url(./Asset/homeheader.png);
     height: 591px;
 }
 .header .title p.welcome{
